@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background"
+    android:padding="16dp">
+
+    <!-- Group Name -->
+    <TextView
+        android:id="@+id/textViewGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:text="Group name: The Tigers"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Group Admin -->
+    <TextView
+        android:id="@+id/textViewGroupAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewGroupName"
+        android:layout_marginBottom="16dp"
+        android:text="Admin Name: Tebibu "
+        android:textSize="18sp" />
+
+    <!-- Group Focus -->
+    <TextView
+        android:id="@+id/textViewGroupFocus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewGroupAdmin"
+        android:layout_marginBottom="16dp"
+        android:text="Group Focus: Fresh man year  "
+        android:textSize="18sp" />
+
+    <!-- Member List Section -->
+<!--    <TextView-->
+<!--        android:id="@+id/memberListTitle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/textViewGroupFocus"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="Members"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+</RelativeLayout>

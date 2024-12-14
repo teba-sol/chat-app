@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">studyGroup</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="bio">Bio</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="back">Back</string>
+    <string name="group_icon">Group Icon</string>
+    <string name="group_info">Group Info</string>
+    <string name="attachment">Attachment</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="emoji">Emoji</string>
+    <string name="send">Send</string>
+    <string name="Groupname">Group Name</string>
+
+</resources>
+

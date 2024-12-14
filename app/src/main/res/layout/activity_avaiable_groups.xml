@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic02"
+    android:padding="16dp"
+    >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Groups"
+            android:textSize="24sp"
+            android:textColor="#000"
+android:background="@drawable/custome_edittor"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+
+
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <!-- ListView for Study Groups -->
+    <ListView
+        android:id="@+id/study_groups_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/white"
+        android:dividerHeight="0dp"
+        android:padding="8dp"
+        />
+
+</LinearLayout>
